@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    <div class="main">
+        <h2 class="titulo">Ventas por vendedor</h2>
+        <br>
+        <table class="tabla">
+            <tr>
+                <th>Nombre</th>
+                <th>Aqua</th>
+                <th>Emocion</th>
+                <th>Alegria</th>
+                <th>Frescura</th>
+                <th>Cantidad de productos por vendedor</th>
+                <th>Total ventas por vendedor</th>
+            </tr>
+            <tr>
+                <td>Juana</td>
+                <td><input id="a1" type="number"></td>
+                <td><input id="a2" type="number"></td>
+                <td><input id="a3" type="number"></td>
+                <td><input id="a4" type="number"></td>
+                <td><p id="total_vendedor_1"></p></td>
+                <td><p id="total_vv_1"></p></td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td><input id="b1" type="number"></td>
+                <td><input id="b2" type="number"></td>
+                <td><input id="b3" type="number"></td>
+                <td><input id="b4" type="number"></td>
+                <td><p id="total_vendedor_2"></p></td>
+                <td><p id="total_vv_2"></p></td>
+            </tr>
+
+            <tr>
+                <td>Total de cada producto</td>
+                <td><p id="total_aqua"></p></td>
+                <td><p id="total_emocion"></p></td>
+                <td><p id="total_alegria"></p></td>
+                <td><p id="total_frescura"></p></td>
+                <td><p id="total_ventas"></p></td>
+                <td><button  class="total" onclick="operar()">enviar</button></td>
+            </tr>
+        </table>
+        <br>
+        <a class=  "mostrar"><button   onclick="ganador()">Mostrar empleado del mes</button></a>
+        <br>
+        <p id="mensaje"></p>
+    </div>
+</body>
+</html>

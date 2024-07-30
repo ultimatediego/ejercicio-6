@@ -1,0 +1,54 @@
+
+table, th, td {
+    border:0.5px solid black;
+    border-radius: 5px;
+}
+input{
+    width: 60px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    background-color: honeydew;
+}
+.total{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 25%;
+}
+
+.tabla{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mostrar{
+    margin: auto;
+}
+
+.titulo{
+    text-align: center;
+}
+#mensaje{
+    display: flex;
+    
+    justify-content: center;
+}
+#total_vendedor_1, #total_vendedor_2, #total_vv_1 , #total_vv_2{
+    text-align: center;
+    color: rgb(20, 109, 8);
+}
+
+#total_aqua, #total_emocion, #total_alegria, #total_frescura{
+    text-align: center;
+    color: brown;
+}
